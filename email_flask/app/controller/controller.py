@@ -27,7 +27,7 @@ def send_email(username, reciever, website, status):
     # content
     add_email(sender = 'anon.non.exe@gmail.com', reciever = reciever, website = website, status = status)
     sender = "anon.non.exe@gmail.com"
-    password = "@bdul12345"
+    password = ""
     mail = smtplib.SMTP('smtp.gmail.com', 587)
     mail.ehlo()
     mail.starttls()
